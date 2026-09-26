@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "task-tracker-api"
         CONTAINER_NAME = "task-tracker-api"
-        APP_PORT = "5000"
+        APP_PORT = "5050"
     }
 
     stages {
