@@ -1,7 +1,4 @@
-def test_health(client):
-    res = client.get("/health")
-    assert res.status_code == 999  # jaan-bujh kar galat kiya
-    assert res.get_json()["status"] == "ok"import pytest
+import pytest
 from app import app, tasks
 
 @pytest.fixture
